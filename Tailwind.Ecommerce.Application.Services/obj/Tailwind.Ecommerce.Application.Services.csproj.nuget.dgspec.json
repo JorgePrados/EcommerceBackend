@@ -1,0 +1,592 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.Services\\Tailwind.Ecommerce.Application.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj",
+        "projectName": "Tailwind.Ecommerce.Application.DTO",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.interface\\Tailwind.Ecommerce.Application.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.interface\\Tailwind.Ecommerce.Application.Interface.csproj",
+        "projectName": "Tailwind.Ecommerce.Application.Interface",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.interface\\Tailwind.Ecommerce.Application.Interface.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.Services\\Tailwind.Ecommerce.Application.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.Services\\Tailwind.Ecommerce.Application.Services.csproj",
+        "projectName": "Tailwind.Ecommerce.Application.Services",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.Services\\Tailwind.Ecommerce.Application.Services.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.interface\\Tailwind.Ecommerce.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.interface\\Tailwind.Ecommerce.Application.Interface.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Mapper\\Tailwind.Ecommerce.CrossCutting.Mapper.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Mapper\\Tailwind.Ecommerce.CrossCutting.Mapper.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Core\\Tailwind.Ecommerce.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Core\\Tailwind.Ecommerce.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj",
+        "projectName": "Tailwind.Ecommerce.CrossCutting.Common",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\Tailwind.Ecommerce.CrossCutting.Common.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.6.4, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Mapper\\Tailwind.Ecommerce.CrossCutting.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Mapper\\Tailwind.Ecommerce.CrossCutting.Mapper.csproj",
+        "projectName": "Tailwind.Ecommerce.CrossCutting.Mapper",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Mapper\\Tailwind.Ecommerce.CrossCutting.Mapper.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.CrossCutting.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Application.DTO\\Tailwind.Ecommerce.Application.DTO.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Core\\Tailwind.Ecommerce.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Core\\Tailwind.Ecommerce.Domain.Core.csproj",
+        "projectName": "Tailwind.Ecommerce.Domain.Core",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Core\\Tailwind.Ecommerce.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Interface\\Tailwind.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Interface\\Tailwind.Ecommerce.Domain.Interface.csproj"
+              },
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Infrastructure.Interface\\Tailwind.Ecommerce.Infrastructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Infrastructure.Interface\\Tailwind.Ecommerce.Infrastructure.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj",
+        "projectName": "Tailwind.Ecommerce.Domain.Entity",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Interface\\Tailwind.Ecommerce.Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Interface\\Tailwind.Ecommerce.Domain.Interface.csproj",
+        "projectName": "Tailwind.Ecommerce.Domain.Interface",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Interface\\Tailwind.Ecommerce.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Infrastructure.Interface\\Tailwind.Ecommerce.Infrastructure.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Infrastructure.Interface\\Tailwind.Ecommerce.Infrastructure.Interface.csproj",
+        "projectName": "Tailwind.Ecommerce.Infrastructure.Interface",
+        "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Infrastructure.Interface\\Tailwind.Ecommerce.Infrastructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\34638\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Infrastructure.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34638\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\34638\\Desktop\\Proyectos\\ECommerce\\Backend\\Tailwind.Ecommerce\\Tailwind.Ecommerce.Domain.Entity\\Tailwind.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
